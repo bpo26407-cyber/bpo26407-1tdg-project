@@ -1,8 +1,16 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background-color:#ABB1B8;
+}
+
+
+
 /* Navbar */
 .navbar {
     display:flex;
-    align-items:center;
     justify-content:space-between;
+    align-items: center;
     background-color:#ffffff;
     padding: 10px 40px;
 }
@@ -10,17 +18,33 @@
 
 /* HGHS Logo */
 .logo img {
-    width:60px;
+    width:90px;
+    height: auto;
 }
+
+
+/* Title */
+.club-name{
+    font-size:34px;
+    font-weight:bold;
+    color:#808488;
+}
+
 
 
 /* Middle text */
 .club-name {
     font-size:25px;
     font-weight:bold;
-    color:#000000;
+    color:#808080;
 }
 
+h1{color:#7a2eb6;
+    text-align:center;}
+
+
+h2{color:#7a2eb6;
+    text-align:center;}
 
 
 /* Menu */
@@ -29,19 +53,24 @@
     margin:0;
     padding:0;
     display:flex;
-    gap: 25px;
+    gap: 20px;
 }
 
 
+.nav-link li{
+    list-style:none;
+}
+
 .nav-links li a {
     text-decoration: none;
-    color: #555353;
-    padding:14px 20px;
-    display: block;
+    color: #717477;
+    padding:8px 12px;
+    font-size:22px;
 }
 
 
 .nav-link li a:hover {
-    background-color: #ff0000;
+    background-color: #ffffff;
+    border-radius:5px;
 }
 
