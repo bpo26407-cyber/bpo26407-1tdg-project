@@ -47,7 +47,12 @@ h2{color:#444444;
     text-align:center;}
     
 
+h3{color:#2c2c2c;
+    text-align:center;}
+
+
 p{color:#4a3728;
+    text-align:center
     line-height:1.6;}
     
 
@@ -85,3 +90,19 @@ img{width:40%;
     border-radius:5px;
 }
 
+
+/* events flexbox */
+.Club-events {
+    display: flex;
+flex-direction: row;
+}
+
+.events-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.events-container img {
+    width: 90%;
+}
