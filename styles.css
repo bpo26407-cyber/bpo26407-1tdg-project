@@ -27,7 +27,7 @@ body{
 .club-name{
     font-size:34px;
     font-weight:bold;
-    color:#808488;
+    color:#4d5155;
 }
 
 
@@ -36,15 +36,26 @@ body{
 .club-name {
     font-size:25px;
     font-weight:bold;
-    color:#808080;
+    color:#889196;
 }
 
 h1{color:#7a2eb6;
     text-align:center;}
 
 
-h2{color:#7a2eb6;
+h2{color:#444444;
     text-align:center;}
+    
+
+p{color:#4a3728;
+    line-height:1.6;}
+    
+
+img{width:40%;
+    display:block;
+    margin:auto;
+    border-radius:10px;}
+    
 
 
 /* Menu */
