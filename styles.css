@@ -39,7 +39,7 @@ body{
     color:#889196;
 }
 
-h1{color:#7a2eb6;
+h1{color:#ffffff;
     text-align:center;}
 
 
@@ -106,3 +106,42 @@ flex-direction: row;
 .events-container img {
     width: 90%;
 }
+
+
+
+/* Popular flexbox */
+.Popular-Roblox {
+    display: flex;
+flex-direction: row;
+}
+
+.Popular-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.Popular-container img {
+    width: 90%;
+}
+
+
+
+
+
+/* How to play flexbox */
+.Howto-play {
+    display: flex;
+flex-direction: row;
+}
+
+.How-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.How-container img {
+    width: 90%;
+}
+
